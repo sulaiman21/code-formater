@@ -1,0 +1,49 @@
+{
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.minimap.enabled": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"editor.fontFamily": "'Fira Code', FiraCode-Retina",
+	"editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+	"editor.fontWeight": "500",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"git.suggestSmartCommit": false,
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [80],
+		"editor.selectionHighlight": false,
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": false
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true,
+		"source.fixAll.eslint": true
+	},
+	"editor.formatOnSave": true,
+	"eslint.alwaysShowStatus": true,
+	"eslint.rules.customizations": [{ "rule": "*", "severity": "error" }],
+	"emmet.showSuggestionsAsSnippets": true,
+	"emmet.triggerExpansionOnTab": true,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"vue-html": "html",
+		"razor": "html",
+		"plaintext": "jade"
+	},
+	"editor.snippetSuggestions": "top",
+	"git.allowForcePush": true,
+	"git.autofetch": true,
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"todo-tree.tree.showScanModeButton": false,
+	"explorer.confirmDelete": false,
+	"prettier.printWidth": 120,
+	"prettier.useTabs": true,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"solidity.telemetry": true,
+	"window.zoomLevel": 2,
+	"terminal.integrated.fontFamily": "monospace"
+}
